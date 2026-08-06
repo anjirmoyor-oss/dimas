@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jasa pembuatan website portofolio & company profile profesional oleh siswa SMK jurusan TJKT. Harga terjangkau, kualitas terjaga.">
+    <meta name="keywords" content="jasa website, portofolio, company profile, web developer, UMKM, landing page">
+    <meta name="author" content="Dimas Nur Faiz">
+
+    <title>Dimas Nur Faiz — Web Developer | Jasa Website Portofolio & Company Profile</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================
+         NAVBAR
+    ============================ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Dimas<span class="logo-dot">.</span>Dev<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                <li><a href="#layanan" class="nav-link">Layanan</a></li>
+                <li><a href="#proyek" class="nav-link">Proyek</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#kenapa" class="nav-link">Kenapa Saya</a></li>
+                <li><a href="#kontak" class="nav-link nav-cta">Hubungi Saya</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================
+         HERO SECTION
+    ============================ -->
+    <section class="hero" id="hero">
+        <!-- Background overlay & image -->
+        <div class="hero-bg">
+            <img src="assets/img/hero-bg.jpg" alt="" aria-hidden="true">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Floating particles decoration -->
+        <div class="particles" aria-hidden="true">
+            <span class="particle"></span>
+            <span class="particle"></span>
+            <span class="particle"></span>
+            <span class="particle"></span>
+            <span class="particle"></span>
+            <span class="particle"></span>
+        </div>
+
+        <div class="container hero-content">
+            <p class="hero-greeting animate-on-scroll">Halo, saya</p>
+            <h1 class="hero-name animate-on-scroll">Dimas Nur Faiz</h1>
+            <h2 class="hero-title animate-on-scroll">
+                <span class="typing-text"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-subtitle animate-on-scroll">
+                Bikin website portofolio & company profile yang <strong>profesional, responsif, dan terjangkau</strong> — 
+                dari siswa SMK yang paham teknologi dari infrastruktur sampai tampilan.
+            </p>
+            <div class="hero-buttons animate-on-scroll">
+                <a href="#proyek" class="btn btn-primary">
+                    <span class="btn-icon">🎨</span> Lihat Karya
+                </a>
+                <a href="#kontak" class="btn btn-secondary">
+                    <span class="btn-icon">📩</span> Pesan Website
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll ke bawah</span>
+        </div>
+    </section>
+
+    <!-- ============================
+         TENTANG SAYA
+    ============================ -->
+    <section class="section" id="tentang">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Perkenalan</span>
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid no-photo">
+                <!-- Deskripsi (tanpa foto profil) -->
+                <div class="about-content animate-on-scroll">
+                    <h3>Siswa SMK — Jurusan TJKT</h3>
+                    <p>
+                        Saya <strong>Dimas Nur Faiz</strong>, siswa SMK jurusan <strong>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</strong> 
+                        yang passionate di bidang web development. Saya tidak hanya bisa mendesain tampilan website yang menarik, 
+                        tapi juga memahami <strong>infrastruktur jaringan, hosting, domain, dan deployment</strong> — 
+                        sehingga website yang saya buat benar-benar siap live di internet.
+                    </p>
+                    <p>
+                        Saya percaya bahwa setiap usaha, sekecil apapun, berhak punya kehadiran digital yang profesional. 
+                        Itulah kenapa saya menawarkan jasa pembuatan website dengan <strong>harga terjangkau untuk pelajar dan UMKM</strong>, 
+                        tanpa mengorbankan kualitas.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🌐</span>
+                            <span>Full-stack: Jaringan → Desain → Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">⚡</span>
+                            <span>Website ringan & super cepat</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">📱</span>
+                            <span>Responsive di semua perangkat</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🚀</span>
+                            <span>Gratis deploy & setup domain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================
+         LAYANAN (SERVICES)
+    ============================ -->
+    <section class="section section-alt" id="layanan">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Paket Jasa</span>
+                <h2 class="section-title">Layanan Saya</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Pilih paket yang sesuai dengan kebutuhan dan budget kamu. Semua paket sudah termasuk desain responsif dan revisi.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Paket Basic -->
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <span class="pricing-icon">🌱</span>
+                        <h3 class="pricing-name">Basic</h3>
+                        <p class="pricing-desc">Landing Page 1 Halaman</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">Rp</span>
+                        <span class="price-amount">150K</span>
+                        <span class="price-period">/ proyek</span>
+                    </div>
+                    <div class="pricing-duration">
+                        <span>⏱️</span> Estimasi: 3-5 hari
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-included">Desain modern & responsif</li>
+                        <li class="feature-included">1 halaman scroll</li>
+                        <li class="feature-included">Optimasi kecepatan</li>
+                        <li class="feature-included">Integrasi WhatsApp</li>
+                        <li class="feature-included">1x revisi minor</li>
+                        <li class="feature-excluded">Multi halaman</li>
+                        <li class="feature-excluded">Animasi lanjutan</li>
+                        <li class="feature-excluded">Custom domain</li>
+                    </ul>
+                    <a href="#kontak" class="btn btn-outline-card">Pilih Paket</a>
+                </div>
+
+                <!-- Paket Standard (Paling Populer) -->
+                <div class="pricing-card popular animate-on-scroll">
+                    <div class="popular-badge">⭐ Paling Populer</div>
+                    <div class="pricing-header">
+                        <span class="pricing-icon">🚀</span>
+                        <h3 class="pricing-name">Standard</h3>
+                        <p class="pricing-desc">Portofolio Personal Multi-Section</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">Rp</span>
+                        <span class="price-amount">350K</span>
+                        <span class="price-period">/ proyek</span>
+                    </div>
+                    <div class="pricing-duration">
+                        <span>⏱️</span> Estimasi: 5-7 hari
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-included">Desain premium & responsif</li>
+                        <li class="feature-included">Multi-section lengkap</li>
+                        <li class="feature-included">Animasi & transisi smooth</li>
+                        <li class="feature-included">Integrasi WhatsApp & Sosmed</li>
+                        <li class="feature-included">3x revisi</li>
+                        <li class="feature-included">Gratis deploy (Netlify/Vercel)</li>
+                        <li class="feature-excluded">Multi halaman</li>
+                        <li class="feature-excluded">Custom domain</li>
+                    </ul>
+                    <a href="#kontak" class="btn btn-primary-card">Pilih Paket</a>
+                </div>
+
+                <!-- Paket Premium -->
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <span class="pricing-icon">💎</span>
+                        <h3 class="pricing-name">Premium</h3>
+                        <p class="pricing-desc">Company Profile UMKM Multi-Halaman</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">Rp</span>
+                        <span class="price-amount">600K</span>
+                        <span class="price-period">/ proyek</span>
+                    </div>
+                    <div class="pricing-duration">
+                        <span>⏱️</span> Estimasi: 7-14 hari
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-included">Desain eksklusif & responsif</li>
+                        <li class="feature-included">3-5 halaman terpisah</li>
+                        <li class="feature-included">Animasi & interaksi advanced</li>
+                        <li class="feature-included">Integrasi WhatsApp & Sosmed</li>
+                        <li class="feature-included">5x revisi</li>
+                        <li class="feature-included">Gratis deploy + custom domain</li>
+                        <li class="feature-included">SEO dasar</li>
+                        <li class="feature-included">Maintenance 1 bulan</li>
+                    </ul>
+                    <a href="#kontak" class="btn btn-outline-card">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+         GALERI PROYEK
+    ============================ -->
+    <section class="section" id="proyek">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Portofolio</span>
+                <h2 class="section-title">Galeri Proyek</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Beberapa proyek yang telah saya kerjakan. Filter berdasarkan kategori untuk menemukan yang relevan.</p>
+            </div>
+
+            <!-- Filter buttons -->
+            <div class="filter-buttons animate-on-scroll">
+                <button class="filter-btn active" data-filter="semua">Semua</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+                <button class="filter-btn" data-filter="portfolio">Portofolio</button>
+                <button class="filter-btn" data-filter="umkm">UMKM</button>
+            </div>
+
+            <!-- Project grid (diisi oleh JavaScript) -->
+            <div class="project-grid" id="project-grid">
+                <!-- Cards akan di-render oleh script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+         SKILLS & TOOLS
+    ============================ -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Kemampuan</span>
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Bahasa & Teknologi -->
+                <div class="skills-category animate-on-scroll">
+                    <h3 class="skills-category-title">
+                        <span class="category-icon">💻</span> Bahasa & Teknologi
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-level="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3 / Flexbox / Grid</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-level="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript (ES6+)</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-level="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP Dasar</span>
+                                <span class="skill-percent">50%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-level="50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Networking (TCP/IP, DNS)</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-level="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skills-category animate-on-scroll">
+                    <h3 class="skills-category-title">
+                        <span class="category-icon">🛠️</span> Tools & Software
+                    </h3>
+                    <div class="tools-grid">
+                        <div class="tool-badge">
+                            <span class="tool-icon">📝</span>
+                            <span class="tool-name">VS Code</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">🎨</span>
+                            <span class="tool-name">Figma</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">🐙</span>
+                            <span class="tool-name">Git & GitHub</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">🌐</span>
+                            <span class="tool-name">Chrome DevTools</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">▲</span>
+                            <span class="tool-name">Netlify / Vercel</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">🖥️</span>
+                            <span class="tool-name">Cisco Packet Tracer</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">🐧</span>
+                            <span class="tool-name">Linux CLI</span>
+                        </div>
+                        <div class="tool-badge">
+                            <span class="tool-icon">📸</span>
+                            <span class="tool-name">Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+         KENAPA PILIH SAYA
+    ============================ -->
+    <section class="section" id="kenapa">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Keunggulan</span>
+                <h2 class="section-title">Kenapa Pilih Saya?</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Belum punya banyak testimoni? Tidak masalah. Ini alasan nyata kenapa kamu bisa percaya dengan jasa saya.</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">💰</div>
+                    <h3 class="why-title">Harga Pelajar, Kualitas Pro</h3>
+                    <p class="why-desc">
+                        Karena saya masih pelajar, overhead biaya saya rendah. Kamu dapat website berkualitas profesional 
+                        dengan investasi yang jauh lebih terjangkau dibanding agensi.
+                    </p>
+                </div>
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">💬</div>
+                    <h3 class="why-title">Komunikasi Responsif</h3>
+                    <p class="why-desc">
+                        Saya aktif di WhatsApp dan Instagram. Progress proyek selalu di-update, dan pertanyaan kamu 
+                        dijawab dengan cepat — bukan PHP (Pemberi Harapan Palsu).
+                    </p>
+                </div>
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">🔄</div>
+                    <h3 class="why-title">Revisi Fleksibel</h3>
+                    <p class="why-desc">
+                        Tidak puas dengan desain? Tinggal bilang. Setiap paket sudah termasuk revisi, 
+                        dan saya selalu terbuka untuk diskusi sampai hasilnya sesuai ekspektasi.
+                    </p>
+                </div>
+                <div class="why-card animate-on-scroll">
+                    <div class="why-icon">🛡️</div>
+                    <h3 class="why-title">Paham Teknis End-to-End</h3>
+                    <p class="why-desc">
+                        Bukan cuma bisa bikin tampilan cantik. Saya juga paham hosting, domain, SSL, dan optimasi performa — 
+                        website kamu benar-benar siap go-live tanpa ribet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+         KONTAK
+    ============================ -->
+    <section class="section section-alt" id="kontak">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Hubungi Saya</span>
+                <h2 class="section-title">Pesan Website Sekarang</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Siap bikin website impianmu? Isi form di bawah dan langsung terhubung via WhatsApp!</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Info kontak -->
+                <div class="contact-info animate-on-scroll">
+                    <h3>Mari Terhubung</h3>
+                    <p>Punya pertanyaan atau mau diskusi proyek? Jangan ragu untuk menghubungi saya melalui channel berikut:</p>
+
+                    <div class="contact-channels">
+                        <a href="https://wa.me/6288294009109" target="_blank" rel="noopener" class="contact-channel">
+                            <span class="channel-icon">📱</span>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>+62 882-9400-9109</span>
+                            </div>
+                        </a>
+                        <a href="mailto:improvetomyself2@gmail.com" class="contact-channel">
+                            <span class="channel-icon">✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <span>improvetomyself2@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/dimassukatraveling?igsh=MTIIOWQzMWtiaG9qaw==" target="_blank" rel="noopener" class="contact-channel">
+                            <span class="channel-icon">📸</span>
+                            <div>
+                                <strong>Instagram</strong>
+                                <span>@dimassukatraveling</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Form kontak -->
+                <div class="contact-form-wrapper animate-on-scroll">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Nama Lengkap</label>
+                            <input type="text" id="contact-name" name="nama" placeholder="Masukkan nama kamu" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-service">Jenis Layanan</label>
+                            <select id="contact-service" name="layanan" required>
+                                <option value="" disabled selected>Pilih layanan...</option>
+                                <option value="Basic — Landing Page">Basic — Landing Page (Rp 150K)</option>
+                                <option value="Standard — Portofolio">Standard — Portofolio (Rp 350K)</option>
+                                <option value="Premium — Company Profile">Premium — Company Profile (Rp 600K)</option>
+                                <option value="Konsultasi">Konsultasi Dulu (Gratis)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Detail Kebutuhan / Budget</label>
+                            <textarea id="contact-message" name="pesan" rows="5" placeholder="Ceritakan kebutuhan website kamu, budget, dan deadline yang diinginkan..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            <span class="btn-icon">📩</span> Kirim via WhatsApp
+                        </button>
+                        <p class="form-note">* Form ini akan membuka WhatsApp dengan pesan yang sudah terisi otomatis.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+         FOOTER
+    ============================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Dimas<span class="logo-dot">.</span>Dev<span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-text">
+                    Dibuat dengan ❤️ dan segelas kopi oleh siswa TJKT.<br>
+                    Website ini sendiri adalah bukti kualitas kerja saya.
+                </p>
+                <div class="footer-social">
+                    <a href="https://wa.me/6288294009109" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-link">📱</a>
+                    <a href="https://www.instagram.com/dimassukatraveling?igsh=MTIIOWQzMWtiaG9qaw==" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">📸</a>
+                    <a href="mailto:improvetomyself2@gmail.com" aria-label="Email" class="social-link">✉️</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Dimas Nur Faiz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+        ↑
+    </button>
+    <!-- Image Preview Lightbox Modal -->
+    <div class="image-modal" id="image-modal" aria-hidden="true">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close" aria-label="Tutup preview">&times;</button>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Preview Proyek">
+                <h3 id="modal-title"></h3>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
